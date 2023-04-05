@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+
+
 body{
 background-color: bisque;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin:  0px;
 
 }
+div.icon{
+    font-size: 200%;
+    color: brown;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 20px;
+   
+   
+  flex-direction:row;
+  align-items: center;
+   
+
+    /* flex start center
+    center
+    flex end
+    space arround
+    space between
+    space evenly */
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: bisque;
+     
+      }
+      div.icon{
+        flex-direction: column;
+        border: none;
+      }
+      
+    }
+    
+  
